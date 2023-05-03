@@ -1,4 +1,4 @@
-# IITI_HEALTH_CENTER
+
 **Team Members**
 
 1\.Velpuru Navya ([210001075)](mailto:cse210001063@iiti.ac.in)
