@@ -25,9 +25,9 @@ This folder contains all the Express-js file along with their stylings. In total
 
 
 
-**Backend**
+**Compass Connections**
 
-This is the back end for the entire project. This is made using mongo dB and node js.Mongo dB is used database and node Js implemented Api. The database consists of 11 collections(tables).
+This is the mongodb connections for the entire project. This is made using mongo dB and node js.Mongo dB is used database and node Js implemented Api. The database consists of 11 collections(tables).
 
 
 
