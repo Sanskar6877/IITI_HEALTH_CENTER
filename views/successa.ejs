@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .has-very-light-gray-background-color{
+            padding:32px;
+            border:1px solid var(--grey-light);
+            box-shadow:0 3px 20px rgba(10,8,59,.12);
+            background-color:#fff}
+            .close {
+  position: absolute;
+  right: 560px;
+  top: 260px;
+  width: 10px;
+  height: 10px;
+  opacity: 0.3;
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 20px;
+  width: 4px;
+  background-color: #333;
+}
+.close:before {
+  transform: rotate(45deg);
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+    </style>
+</head>
+<body> 
+    <div class="has-very-light-gray-background-color" style="width:600px; height:300px; margin-left:500px; margin-top:260px">
+        <a href="/login1/admindashboards/<%= name1%>" class="close"></a>
+     <br><br><br><br> 
+     <h1 style="position: center; margin-left:170px;margin-top: -20px;">Congratulations <%=n%></h1>
+     <h2 style="margin-left:50px;margin-top:50px">Your Appointmnet has been booked successfully. We will send you the prescription soon, please visit healthcenter website  regularly.</h2>
+    </div>
+</body>
+</html>
